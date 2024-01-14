@@ -24,5 +24,20 @@ OpenJDK 64-Bit Server VM (build ...)
 ```
 
 ## Step 2. Build Source with Maven
-
+ThingsBoard build requires Maven 3.1.0+.
+```text
+sudo apt-get install maven
+```
+You can clone source code of the project from the official github repo.
+```
+git clone https://github.com/d42y/thingsboard
+```
+```text
+cd thingsboard
+```
+### Build
+Run the following command from the thingsboard folder to build the project:
+```text
+mvn clean install -DskipTests
+```
 
