@@ -35,4 +35,14 @@ Remove these two lines if exist
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 ```
-Only thing remain should be within the <svg ....> </svg> tag
+Only thing remain should be within the SVG tag
+```text
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="204" viewBox="0 0 1280 204" xml:space="preserve">
+<desc>Created with Fabric.js 5.3.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 640 102)" id="E9UPLKkwOMQ5iij3uWp3G"  >
+	<image></image>
+</g>
+</svg>
+```
