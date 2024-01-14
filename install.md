@@ -73,6 +73,10 @@ add repository contents to your system:
 ```text
 echo "deb https://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main" | sudo tee  /etc/apt/sources.list.d/pgdg.list
 ```
+Update installation package
+```text
+sudo apt update
+```
 install and launch the postgresql service:
 ```text
 sudo apt -y install postgresql-15
