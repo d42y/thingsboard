@@ -1,3 +1,4 @@
+# Custom build and install ThingsBoard
 
 ## Step 1. Install Java 11 (OpenJDK)
 ThingsBoard service is running on Java 11. Follow this instructions to install OpenJDK 11:
