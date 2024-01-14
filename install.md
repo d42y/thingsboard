@@ -40,10 +40,18 @@ Run the following command from the thingsboard folder to build the project:
 ```text
 mvn clean install -DskipTests
 ```
+
+Confirm BUILD SUCCESS and no errors.
+
 ## Step 3. ThingsBoard service installation
+make sure you are in the home directory
+```text
+cd ~
+```
+
 Copy installation package.
 ```text
-sudo cp ~/application/target/thingsboard.deb
+sudo cp ~/thingsboard/application/target/thingsboard.deb
 ```
 Install ThingsBoard as a service
 ```text
