@@ -22,12 +22,12 @@ gotoThingsboard(): void {
   }
 ```
 ### Making a logo
-You can use any application to create a svg logo file.
-I use https://vectr.com/. Free version with add but paid version is very reasonable.
-Recomend title logo size around 1300px width and 300 px height.
-Remove xml tag from svg file (if any):
-Open svg file with any text editor
-Remove these two line if exist
+You can use any application to create an SVG logo file.
+I use https://vectr.com/. The free version has ad, but the paid version is very reasonable.
+Recommend a title logo size of around 1300px width and 300px height.
+Remove XML tag from SVG file (if any):
+Open SVG file with any text editor
+Remove these two lines if exist
 ```text
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
