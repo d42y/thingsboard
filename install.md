@@ -51,7 +51,7 @@ cd ~
 
 Copy installation package.
 ```text
-sudo cp ~/thingsboard/application/target/thingsboard.deb
+sudo cp ~/thingsboard/application/target/thingsboard.deb thingsboard.deb
 ```
 Install ThingsBoard as a service
 ```text
