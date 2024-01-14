@@ -99,6 +99,10 @@ psql
 ```text
 \q
 ```
+Exit until root login
+```text
+exit
+```
 
 Then, press “Ctrl+D” to return to main user console and connect to the database to create thingsboard DB:
 ```text
@@ -118,6 +122,10 @@ echo "deb https://debian.cassandra.apache.org 41x main" | sudo tee /etc/apt/sour
 ```
 ```text
 curl https://downloads.apache.org/cassandra/KEYS | sudo apt-key add -
+```
+Update installation package
+```text
+sudo apt update
 ```
 Cassandra installation
 ```text
