@@ -68,3 +68,22 @@ Change path to title logo svg file (as of 1/14/2024 line 262)
 ```text
 logo = 'assets/your_title_logo.svg';
 ```
+## Change page title and icon
+Open file
+```text
+~\thingsboard\ui-ngx\src\index.html
+```
+As of (1/14/2024 line 22), change title to your site title
+```text
+<title>Your Page Title</title>
+```
+
+### icon
+Open file
+```text
+~\thingsboard\ui-ngx\src\index.html
+```
+As of (1/14/2024 line 26), change icon to your site icon
+```text
+<link rel="icon" type="image/x-icon" href="your_site_icon.ico">
+```
