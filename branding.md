@@ -1,6 +1,6 @@
 # Custom Branding ThingsBoard
 
-## Replace title logo
+## Replace home title logo
 Open file
 ```text
 ~\thingsboard\ui-ngx\src\app\shared\components\logo.component.ts
@@ -10,17 +10,8 @@ Change path to title logo svg file
 ```text
 logo = 'assets/your_title_logo.svg';
 ```
+Recommend a title logo size of around 1300px width and 300px height.
 
-Change the link when user click on logo
-Code below go back to base Url instead of thingsboard.io
-```text
-gotoThingsboard(): void {
-    var currentUrl = window.location.href;
-    var url = new URL(currentUrl);
-    var baseUrl = url.origin;
-    window.location.href = baseUrl;
-  }
-```
 ### Making a logo
 You can use any application to create an SVG logo file.
 
@@ -45,4 +36,35 @@ Only thing remain should be within the SVG tag
 	<image></image>
 </g>
 </svg>
+```
+## Replace login title logo
+Open file
+```text
+~\thingsboard\ui-ngx\src\app\shared\components\logo.component.ts
+```
+Change path to title logo svg file
+
+```text
+logo = 'assets/your_title_logo.svg';
+```
+
+Change the link when user click on logo
+Code below go back to base Url instead of thingsboard.io
+```text
+gotoThingsboard(): void {
+    var currentUrl = window.location.href;
+    var url = new URL(currentUrl);
+    var baseUrl = url.origin;
+    window.location.href = baseUrl;
+  }
+```
+## Replace dashboard title logo
+Open file
+```text
+~\thingsboard\ui-ngx\src\app\modules\home\components\dashboard-page\dashboard-page.component.ts
+```
+Change path to title logo svg file (as of 1/14/2024 line 262)
+
+```text
+logo = 'assets/your_title_logo.svg';
 ```
