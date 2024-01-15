@@ -227,3 +227,32 @@ Line 121
 Line 126
 Line 137
 ```
+
+## Replace Company Name - State warning
+Open file
+```text
+~\thingsboard\application\src\main\resources\templates\state.warning.ftl
+```
+As of (1/14/2024), replace the Tinkgsboard with your Company Name
+```text
+Line 25
+Line 113 - need to change link to head.png
+Line 116
+Line 120 - need to change the link to alarm.png
+Line 121
+Line 129
+Line 140
+```
+
+## Replace Company Name - Test
+Open file
+```text
+~\thingsboard\application\src\main\resources\templates\test.ftl
+```
+As of (1/14/2024), replace the Tinkgsboard with your Company Name
+```text
+Line 23
+Line 86
+Line 96
+Line 104
+```
