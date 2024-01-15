@@ -26,7 +26,11 @@ export class LogoComponent {
   logo = 'assets/aqualogics_title_logo.svg';
 
   gotoThingsboard(): void {
-    window.open('https://aqualogics.app', '_blank');
+
+    var currentUrl = window.location.href;
+    var url = new URL(currentUrl);
+    var baseUrl = url.origin;
+    window.location.href = baseUrl;
   }
 
 }
