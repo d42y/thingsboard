@@ -95,3 +95,14 @@ As of (1/14/2024 line 30), change icon to your site icon
 ```text
 "src/your_site_icon.ico",
 ```
+## Replace Copyright notice
+Open file
+```text
+~\thingsboard\ui-ngx\src\app\shared\components\footer.component.html
+```
+As of (1/14/2024 line 19), change copy right
+```text
+ <small>
+    Copyright © {{year}} your_site_name. Powered by <a href="https://thingsboard.io" target="_blank">ThingsBoard</a>. Open Source by <a href="https://thingsboard.io" target="_blank">The ThingsBoard Authors</a>.
+</small>
+```
