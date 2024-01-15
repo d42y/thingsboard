@@ -100,9 +100,130 @@ Open file
 ```text
 ~\thingsboard\ui-ngx\src\app\shared\components\footer.component.html
 ```
-As of (1/14/2024 line 19), change copy right
+As of (1/14/2024 line 19), change copyright
 ```text
  <small>
     Copyright © {{year}} your_site_name. Powered by <a href="https://thingsboard.io" target="_blank">ThingsBoard</a>. Open Source by <a href="https://thingsboard.io" target="_blank">The ThingsBoard Authors</a>.
 </small>
+```
+## Change App Title
+Open file
+```text
+~\thingsboard\ui-ngx\src\environments\environment.prod.ts
+```
+As of (1/14/2024 line 18), change app title
+```text
+appTitle: 'Your App Title',
+```
+
+## Replace Company Name - 2FA Verification Code Message
+Open file
+```text
+~\thingsboard\application\src\main\resources\templates\2fa.verification.code.ftl
+```
+As of (1/14/2024), replace the Tinkgsboard with your Company Name
+```text
+Line 99
+Line 107
+```
+
+## Replace Company Name - Account Activiated
+Open file
+```text
+~\thingsboard\application\src\main\resources\templates\account.activated.ftl
+```
+As of (1/14/2024), replace the Tinkgsboard with your Company Name
+```text
+Line 23
+Line 86
+Line 91
+Line 96
+Line 106
+Line 114
+```
+## Replace Company Name - Account Lockout
+Open file
+```text
+~\thingsboard\application\src\main\resources\templates\account.lockout.ftl
+```
+As of (1/14/2024), replace the Tinkgsboard with your Company Name
+```text
+Line 23
+Line 86
+Line 91
+Line 96
+Line 104
+```
+
+## Replace Company Name - Activation
+Open file
+```text
+~\thingsboard\application\src\main\resources\templates\activation.ftl
+```
+As of (1/14/2024), replace the Tinkgsboard with your Company Name
+```text
+Line 23
+Line 86
+Line 106
+Line 114
+```
+
+## Replace Company Name - Password was reset
+Open file
+```text
+~\thingsboard\application\src\main\resources\templates\password.was.reset.ftl
+```
+As of (1/14/2024), replace the Tinkgsboard with your Company Name
+```text
+Line 23
+Line 86
+Line 91
+Line 96
+Line 106
+Line 114
+```
+
+## Replace Company Name - Reset password
+Open file
+```text
+~\thingsboard\application\src\main\resources\templates\reset.password.ftl
+```
+As of (1/14/2024), replace the Tinkgsboard with your Company Name
+```text
+Line 23
+Line 91
+Line 106
+Line 114
+```
+
+## Replace Company Name - State disabled
+Open file
+```text
+~\thingsboard\application\src\main\resources\templates\state.disabled.ftl
+```
+As of (1/14/2024), replace the Tinkgsboard with your Company Name
+```text
+Line 25
+Line 113 - need to change link to head.png
+Line 116
+Line 120 - need to change the link to alarm.png
+Line 121
+Line 129
+Line 140
+```
+
+## Replace Company Name - State enabled
+Open file
+```text
+~\thingsboard\application\src\main\resources\templates\state.enabled.ftl
+```
+As of (1/14/2024), replace the Tinkgsboard with your Company Name
+```text
+Line 25
+Line 113 - need to change link to head.png
+Line 116
+Line 120 - need to change the link to alarm.png
+Line 121
+Line 126
+Line 137
 ```
