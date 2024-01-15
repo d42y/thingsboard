@@ -87,3 +87,11 @@ As of (1/14/2024 line 26), change icon to your site icon
 ```text
 <link rel="icon" type="image/x-icon" href="your_site_icon.ico">
 ```
+Open file
+```text
+~\thingsboard\ui-ngx\angular.json
+```
+As of (1/14/2024 line 30), change icon to your site icon
+```text
+"src/your_site_icon.ico",
+```
