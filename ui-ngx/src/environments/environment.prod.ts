@@ -15,7 +15,7 @@
 ///
 
 export const environment = {
-  appTitle: 'ThingsBoard',
+  appTitle: 'AquaLogics',
   production: true,
 // @ts-ignore
   tbVersion: TB_VERSION,
