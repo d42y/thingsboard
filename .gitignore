@@ -39,3 +39,4 @@ rebuild-docker.sh
 .run
 /.vs/slnx.sqlite
 *.vsidx
+/.vs/thingsboard/v17/.wsuo
