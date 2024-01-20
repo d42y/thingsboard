@@ -256,3 +256,10 @@ Line 86
 Line 96
 Line 104
 ```
+
+## Modify doc links
+Open file
+```text
+~\thingsboard\ui-ngx\src\app\modules\home\components\widget\lib\home-page\doc-links-widget.component.ts
+```
+Edit as needed
