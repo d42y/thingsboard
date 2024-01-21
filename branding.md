@@ -263,3 +263,14 @@ Open file
 ~\thingsboard\ui-ngx\src\app\modules\home\components\widget\lib\home-page\doc-links-widget.component.ts
 ```
 Edit as needed
+
+## thingsboard.yml
+This file has configuration with thingsboard name. You can change these in source or in production.
+Source location:
+```text
+~\thingsboard\application\src\main\resources\thingsboard.yml
+```
+Production location:
+```text
+/etc/thingsboard/conf/thingsboard.yml
+```
