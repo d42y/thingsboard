@@ -208,7 +208,7 @@ wget https://downloads.apache.org/kafka/3.6.1/kafka_2.13-3.6.1.tgz
 tar xzf kafka_2.13-3.6.1.tgz
 ```
 ```text
-sudo mv kafka_2.13-3.6.1.tgz /usr/local/kafka
+sudo mv kafka_2.13-3.6.1 /usr/local/kafka
 ```
 #### Setup Kafka Systemd Unit file
 Create systemd unit file for Kafka:
@@ -224,7 +224,6 @@ Requires=zookeeper.service
 
 [Service]
 Type=simple
-Environment="JAVA_HOME=/usr/lib/jvm/java-11-openjdk-xxx"
 ExecStart=/usr/local/kafka/bin/kafka-server-start.sh /usr/local/kafka/config/server.properties
 ExecStop=/usr/local/kafka/bin/kafka-server-stop.sh
 
@@ -272,9 +271,9 @@ http://localhost:8080/
 ```
 The following default credentials are available if you have specified –loadDemo during execution of the installation script:
 
-System Administrator: sysadmin@thingsboard.org / sysadmin
-Tenant Administrator: tenant@thingsboard.org / tenant
-Customer User: customer@thingsboard.org / customer
+- System Administrator: sysadmin@thingsboard.org / sysadmin
+- Tenant Administrator: tenant@thingsboard.org / tenant
+- Customer User: customer@thingsboard.org / customer
 You can always change passwords for each account in account profile page.
 
 ## Troubleshooting
