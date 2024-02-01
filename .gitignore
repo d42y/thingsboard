@@ -42,3 +42,4 @@ rebuild-docker.sh
 /.vs/thingsboard/v17/.wsuo
 /.vs/thingsboard/FileContentIndex/b5713f20-131f-4fe9-8c85-272ec7147ea3.vsidx
 *.lock
+/.vs/slnx.sqlite-journal
