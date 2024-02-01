@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\application",
+    "\\application\\src",
+    "\\application\\src\\main",
+    "\\application\\src\\main\\java",
+    "\\application\\src\\main\\java\\org",
+    "\\application\\src\\main\\java\\org\\thingsboard",
+    "\\application\\src\\main\\java\\org\\thingsboard\\server",
+    "\\application\\src\\main\\java\\org\\thingsboard\\server\\controller",
+    "\\application\\src\\main\\resources\\i18n"
   ],
-  "SelectedNode": "\\E:\\Code\\thingsboard",
+  "SelectedNode": "\\application\\src\\main\\java\\org\\thingsboard\\server\\controller\\UserController.java",
   "PreviewInSolutionExplorer": false
 }
