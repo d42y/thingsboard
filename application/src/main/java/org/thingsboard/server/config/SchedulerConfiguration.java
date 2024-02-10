@@ -13,11 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.thingsboard.server.service.scheduler;
+package org.thingsboard.server.config;
 
-import java.util.concurrent.TimeUnit;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.thingsboard.server.service.scheduler.DefaultSchedulerService;
+import org.thingsboard.server.service.scheduler.SchedulerService;
 
-public interface SchedulerService {
-    void schedule(Runnable task, long delay, TimeUnit timeUnit);
+@Configuration
+public class SchedulerConfiguration {
+
+    @Bean
+    public SchedulerService schedulerService() {
+        return new DefaultSchedulerService();
+    }
 }
-
