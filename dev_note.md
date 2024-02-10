@@ -16,3 +16,14 @@
                         <header>${main.dir}/license-header-template.txt</header>
                          ...
    ```
+
+   ## Transfer file from Ubuntu to Windows
+   1. Install PuTTY
+   2. Change directory to PuTTY dir.
+      '''text
+      C:\Program Files\PuTTY
+      ```
+   4. Use PSCP to transfer file
+      ```text
+      pscp iotadmin@192.168.157.129:/home/iotadmin/thingsboard/application/target/thingsboard.deb e:\temp\thingsboard.deb
+      ```
