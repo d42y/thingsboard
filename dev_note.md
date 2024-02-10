@@ -20,7 +20,7 @@
    ## Transfer file from Ubuntu to Windows
    1. Install PuTTY
    2. Change directory to PuTTY dir.
-      '''text
+      ```text
       C:\Program Files\PuTTY
       ```
    4. Use PSCP to transfer file
